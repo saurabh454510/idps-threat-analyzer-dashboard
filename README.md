@@ -31,11 +31,11 @@ Place your trained model file in the root directory:
 idps_full_model.h5
 Ensure your model matches the feature input shape defined in the script.
 🚦 How to Run
+python3 idps_dashboard.py
 
-python3 app.py
 Then open your browser at:
-
 http://localhost:8050
+
 📂 CSV Format
 
 Your input file must be a .csv containing all 78 required features such as:
